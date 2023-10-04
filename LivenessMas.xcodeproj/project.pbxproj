@@ -107,8 +107,15 @@
 		B394AA4D2ACD0861009B9AC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B394AA572ACD08AA009B9AC6 /* Helper */,
-				B394AA522ACD08AA009B9AC6 /* ViewContoller */,
+				B394AA582ACD08AA009B9AC6 /* FaceLandmarkerHelper.swift */,
+				B394AA592ACD08AA009B9AC6 /* PreviewView.swift */,
+				B394AA5A2ACD08AA009B9AC6 /* OverlayView.swift */,
+				B394AA5B2ACD08AA009B9AC6 /* CameraFeedManager.swift */,
+				B394AA5C2ACD08AA009B9AC6 /* UIViewControlller+Extensions.swift */,
+				B394AA532ACD08AA009B9AC6 /* MainSDKViewController.swift */,
+				B394AA542ACD08AA009B9AC6 /* InferenceViewController.xib */,
+				B394AA552ACD08AA009B9AC6 /* InferenceViewController.swift */,
+				B394AA562ACD08AA009B9AC6 /* MainSDKViewController.xib */,
 				B394AA4F2ACD088B009B9AC6 /* face_landmarker.task */,
 				B394AA672ACD08C6009B9AC6 /* LivenessSDK.swift */,
 				B394AA462ACD0859009B9AC6 /* LivenessMas.h */,
@@ -122,29 +129,6 @@
 				B394AA512ACD08AA009B9AC6 /* Media.xcassets */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		B394AA522ACD08AA009B9AC6 /* ViewContoller */ = {
-			isa = PBXGroup;
-			children = (
-				B394AA532ACD08AA009B9AC6 /* MainSDKViewController.swift */,
-				B394AA542ACD08AA009B9AC6 /* InferenceViewController.xib */,
-				B394AA552ACD08AA009B9AC6 /* InferenceViewController.swift */,
-				B394AA562ACD08AA009B9AC6 /* MainSDKViewController.xib */,
-			);
-			path = ViewContoller;
-			sourceTree = "<group>";
-		};
-		B394AA572ACD08AA009B9AC6 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				B394AA582ACD08AA009B9AC6 /* FaceLandmarkerHelper.swift */,
-				B394AA592ACD08AA009B9AC6 /* PreviewView.swift */,
-				B394AA5A2ACD08AA009B9AC6 /* OverlayView.swift */,
-				B394AA5B2ACD08AA009B9AC6 /* CameraFeedManager.swift */,
-				B394AA5C2ACD08AA009B9AC6 /* UIViewControlller+Extensions.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		B526A7FD846AA6146F438E7C /* Pods */ = {

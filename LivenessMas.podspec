@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessMas"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of LivenessMas."
 
   # This description is used to generate tags and improve search results.
@@ -89,10 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LivenessMas/Classes/**/*.{h,m,swift,xib}"
+  spec.source_files  = "LivenessMas/Classes/*.{h,m,swift,xib}"
   # spec.exclude_files = "LivenessMas/Exclude"
 
-  spec.public_header_files = "LivenessMas/*.h"
+  spec.public_header_files = "LivenessMas/Classes/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -120,7 +120,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
+  spec.static_framework = true
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
