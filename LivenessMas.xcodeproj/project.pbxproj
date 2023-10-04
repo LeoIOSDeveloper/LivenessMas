@@ -100,7 +100,6 @@
 			children = (
 				B394AA4E2ACD0875009B9AC6 /* Assets */,
 				B394AA4D2ACD0861009B9AC6 /* Classes */,
-				B394AA462ACD0859009B9AC6 /* LivenessMas.h */,
 			);
 			path = LivenessMas;
 			sourceTree = "<group>";
@@ -112,6 +111,7 @@
 				B394AA522ACD08AA009B9AC6 /* ViewContoller */,
 				B394AA4F2ACD088B009B9AC6 /* face_landmarker.task */,
 				B394AA672ACD08C6009B9AC6 /* LivenessSDK.swift */,
+				B394AA462ACD0859009B9AC6 /* LivenessMas.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
