@@ -90,10 +90,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LivenessMas/Classes/*.{h,m,swift,xib}"
+  spec.source_files  = "LivenessMas/Classes/**/*.{h,m,swift}"
+  spec.ios.source_files  = "LivenessMas/Classes/**/*.{h,m,swift}"
   # spec.exclude_files = "LivenessMas/Exclude"
 
-  spec.public_header_files = "LivenessMas/Classes/*.h"
+  spec.public_header_files = "LivenessMas/Classes/*{.h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
