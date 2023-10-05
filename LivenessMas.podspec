@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessMas"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A short description of LivenessMas."
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "LivenessMas/Assets/*.xcassets"
+  spec.resources = "LivenessMas/Assets/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
