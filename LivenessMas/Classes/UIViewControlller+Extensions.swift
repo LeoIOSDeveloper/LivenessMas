@@ -9,7 +9,9 @@ import UIKit
 
 extension UIViewController {
     private static func getInstance<T: UIViewController>() -> T {
-        return T.init(nibName: String(describing: self), bundle: Bundle(for: self))
+        let bundle = Bundle(identifier: "com.mascom.miniapp.sdk.Liveness")
+        print("Bundle: ", bundle ?? "")
+        return T.init(nibName: String(describing: self), bundle: bundle)
     }
     
     static func instance() -> Self {
